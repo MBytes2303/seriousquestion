@@ -20,6 +20,135 @@
       >
         Thank you!
       </h1>
+      <h2 class="font-bold text-lg">But what should we do?🤔</h2>
+      <h2 class="font-bold text-md">we can only do so much...</h2>
+
+      <div class="mt-6 grid grid-cols-2 gap-6 w-5/6">
+        <div class="flex flex-col items-center">
+          <img
+            src="../images/movies.png"
+            alt="movies"
+            class="w-full h-auto rounded-lg shadow-md"
+          />
+          <div class="mt-2 flex items-center space-x-2">
+            <input type="checkbox" id="image1Checkbox" class="w-5 h-5" />
+            <label for="image1Checkbox" class="text-lg font-semibold"
+              >Movie Night🎬</label
+            >
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img
+            src="../images/legos.jpg"
+            alt="legos"
+            class="w-full h-auto rounded-lg shadow-md"
+          />
+          <div class="mt-2 flex items-center space-x-2">
+            <input type="checkbox" id="image2Checkbox" class="w-5 h-5" />
+            <label for="image2Checkbox" class="text-lg font-semibold"
+              >Legos!🔨</label
+            >
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img
+            src="../images/iceskating.jpeg"
+            alt="ice skating"
+            class="w-full h-auto rounded-lg shadow-md"
+          />
+          <div class="mt-2 flex items-center space-x-2">
+            <input type="checkbox" id="image3Checkbox" class="w-5 h-5" />
+            <label for="image3Checkbox" class="text-lg font-semibold"
+              >Ice Skating⛸️</label
+            >
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img
+            src="../images/artsandcrafts.jpg"
+            alt="arts and crafts"
+            class="w-full h-auto rounded-lg shadow-md"
+          />
+          <div class="mt-2 flex items-center space-x-2">
+            <input type="checkbox" id="image4Checkbox" class="w-5 h-5" />
+            <label for="image4Checkbox" class="text-lg font-semibold"
+              >Arts and Crafts🎨</label
+            >
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img
+            src="../images/dinner.jpg"
+            alt="dinner"
+            class="w-full h-auto rounded-lg shadow-md"
+          />
+          <div class="mt-2 flex items-center space-x-2">
+            <input type="checkbox" id="image5Checkbox" class="w-5 h-5" />
+            <label for="image5Checkbox" class="text-lg font-semibold"
+              >Fancy Dinner🍽️</label
+            >
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img
+            src="../images/gamenight.jpg"
+            alt="game night"
+            class="w-full h-auto rounded-lg shadow-md"
+          />
+          <div class="mt-2 flex items-center space-x-2">
+            <input type="checkbox" id="image6Checkbox" class="w-5 h-5" />
+            <label for="image6Checkbox" class="text-lg font-semibold"
+              >Game Night🎮</label
+            >
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img
+            src="../images/justhangingout.png"
+            alt="holding hands"
+            class="w-full h-auto rounded-lg shadow-md"
+          />
+          <div class="mt-2 flex items-center space-x-2">
+            <input type="checkbox" id="image7Checkbox" class="w-5 h-5" />
+            <label for="image7Checkbox" class="text-lg font-semibold"
+              >Just hang out😊</label
+            >
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img
+            src="../images/thinkingemoji.png"
+            alt="thinking"
+            class="w-full h-auto rounded-lg shadow-md"
+          />
+          <div class="mt-2 flex items-center space-x-2">
+            <input type="checkbox" id="image8Checkbox" class="w-5 h-5" />
+            <label for="image8Checkbox" class="text-lg font-semibold"
+              >Other! What ever you want!</label
+            >
+          </div>
+        </div>
+      </div>
+      <button
+        id="submitBtn"
+        class="px-6 py-3 bg-green-500 text-white font-bold text-lg rounded-lg shadow-md hover:bg-green-600 transition duration-300"
+      >
+        Submit!
+      </button>
     </div>
+    <script>
+      document
+        .getElementById("submitBtn")
+        .addEventListener("click", function () {
+          window.location.href = "thankyoupt2.html";
+        });
+    </script>
   </body>
 </html>
